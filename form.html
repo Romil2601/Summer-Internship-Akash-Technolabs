@@ -1,0 +1,73 @@
+<html>
+    <head><title>Form Format</title></head>
+  <body>
+    <center>
+    <table border="1">
+    <form method="post">
+
+        <tr>
+        <td colspan="2">
+        <center>
+        Pizza Shop 2.0
+        </center>
+        </td>
+        </tr>
+
+        <tr> 
+        <td> Name:</td>
+        <td> <input type="text" name="Name"></td>
+        </tr>
+             
+        <tr>
+        <td> 
+        Pizza Topping:
+        <td>
+        <input type="radio" name="topping" value="Supreme">Supreme 
+        <input type="radio" name="topping" value="Vegetarian">Vegetarian
+        <input type="radio" name="topping" value="Hawaiian">Hawaiian
+        </td>
+        </td>
+        </tr>
+         
+        <tr>
+        <td>
+       Pizza Sauce:
+        <td>
+            <select name="Sauce">
+            <option value="Tomato">Tomato</option>
+            <option value="Red Chilli">Red Chilli</option>
+            <option value="Soya">Soya </option>
+            <option value="Mayonnaise">Mayonnasie</option>
+        </select> 
+        </td>
+        </td>
+        </tr>
+           
+        <tr>
+        <td>
+        Optional Extras: 
+        <td>
+        <input type="checkbox" name="Extra Cheese" value="1">Extra Cheese
+        <input type="checkbox" name="Gluten Free Base" value="1">Gluten Free Base
+        </td>
+        </td>
+        </tr> 
+
+        <tr>
+        <td colspan="2">
+        Delivery Instructions:<br>
+        <textarea name="Instructions" id="120" cols="50" rows="10"></textarea>
+        </td>
+        </tr>
+          
+        
+        <td colspan="2">
+        <input type="button" value="Send my order">
+        </td>
+         
+
+    </form>
+   </table>
+   </center>
+  </body>
+</html>
